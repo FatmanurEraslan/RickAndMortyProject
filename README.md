@@ -21,15 +21,15 @@ ng serve
 
 <div align="center">
   <br />
-  <img src="assets/images/register.png" alt="Register Screen" height="500" />
+  <img src="src/assets/images/register.png" alt="Register Screen" height="500" />
 </div>
 
-### Login Screen
+### Sign in Screen
 
 <div align="center">
-  <b>Login Screen</b>
+  <b>Sign in Screen</b>
   <br />
-  <img src="assets/images/sign-in.png" alt="Sign in Screen" height="500" />
+  <img src="src/assets/images/sign-in.png" alt="Sign in Screen" height="500" />
 </div>
 
 ### Home Screen
@@ -37,8 +37,8 @@ ng serve
 <div align="center">
   <b>Home Screen</b>
   <br />
-  <img src="assets/images/home.png" alt="Home Screen" height="500" />
-    <img src="assets/images/search.png" alt="Home Screen" height="500" />
+  <img src="src/assets/images/home.png" alt="Home Screen" height="500" />
+    <img src="src/assets/images/search.png" alt="Home Screen" height="500" />
 
 </div>
 
@@ -47,7 +47,7 @@ ng serve
 ### Favorite Screen
 
 <div align="center">
-  <b>User List Screen</b>
+  <b> Favorite Screen</b>
   <br />
-  <img src="assets/images/favorite.png" alt="Favorite Screen" height="500" />
+  <img src="src/assets/images/favorite.png" alt="Favorite Screen" height="500" />
 </div>
