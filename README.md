@@ -2,26 +2,46 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
 
-## Development server
+## Screenshots
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Register Screen
 
-## Code scaffolding
+<div align="center">
+  <br />
+  <img src="assets/images/register.png" alt="Register Screen" height="500" />
+</div>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Login Screen
 
-## Build
+<div align="center">
+  <b>Login Screen</b>
+  <br />
+  <img src="assets/images/sign-in.png" alt="Sign in Screen" height="500" />
+</div>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Home Screen
 
-## Running unit tests
+<div align="center">
+  <b>Home Screen</b>
+  <br />
+  <img src="assets/images/home.png" alt="Home Screen" height="500" />
+    <img src="assets/images/search.png" alt="Home Screen" height="500" />
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+</div>
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+### Favorite Screen
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<div align="center">
+  <b>User List Screen</b>
+  <br />
+  <img src="assets/images/favorite.png" alt="Favorite Screen" height="500" />
+</div>
+
+## Getting Started
+npm -i
+After installing the package dependencies with:
+
+```bash
+ng serve
