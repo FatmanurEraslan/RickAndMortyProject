@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
 
+## Getting Started
+
+
+```bash
+npm -i
+```
+After installing the package dependencies with:
+
+
+```bash
+ng serve
+```
+
 ## Screenshots
 
 ### Register Screen
@@ -38,10 +51,3 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   <br />
   <img src="assets/images/favorite.png" alt="Favorite Screen" height="500" />
 </div>
-
-## Getting Started
-npm -i
-After installing the package dependencies with:
-
-```bash
-ng serve
