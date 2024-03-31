@@ -1,0 +1,18 @@
+<div class="col">
+  <div class="box-shadow">
+    <div class="card mt-2">
+      <img [src]="character.image" class="card-img-top img-fluid float-end"
+        alt="...">
+      <div class="card-body">
+        <h5 class="card-title" style="color: black;">{{ character.name }}</h5>
+        <p class="card-text">
+          <span class="text-danger fw-semibold me-2" style="color: white;">{{ character.species }}</span>
+        </p>
+        <div class="d-flex justify-content-between align-items-center">
+          <span class="text-muted" style="color: white;">{{ character.status }}</span>
+          <p-button label="Go details" severity="success" ></p-button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

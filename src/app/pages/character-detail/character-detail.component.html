@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Details</title>
+    <!-- Bootstrap CSS dosyası -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Gerekli özel stiller */
+        .card {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div *ngIf="character" class="row product-details p-4">
+        <div class="col-4 col-lg-4 col-md-4 col-sm-12 col-12">
+            <img *ngIf="character.image" class="product-img" [src]="character.image" alt="">
+        </div>
+        <div class="col-8 col-lg-8 col-md-12 col-sm-12 col-12">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h1><strong>{{ character.name }}</strong></h1>
+                    <br>
+                    <span class="status-dot" [ngClass]="{
+                        'alive': character.status === 'Alive',
+                        'dead': character.status === 'Dead',
+                        'unknown': character.status === 'unknown'
+                    }"></span>{{ character.status }} - {{ character.species }} - {{ character.gender }}
+                    <h6 *ngIf="character.type"> Character Description: {{ character.type }}</h6>
+                    <br><br>
+                    <h3>Location Info</h3>
+                    <h6>Name: {{character.location.name}}</h6>
+                    <h6>Type: {{location.type}}</h6>
+                    <h6>Dimension: {{location.dimension}}</h6>
+                </div>
+                <div>
+                    <p-button (click)="addToFavorite()" severity="success">Add Favorite</p-button>
+                </div>
+            </div>
+            <br><br>
+  
+        </div>
+        <br>
+        <div class="col-12 col-sm-12">
+            <h3>Episodes</h3>
+            <div class="card-columns">
+                <div *ngFor="let episode of episodes" class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{episode.name}}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{episode.air_date}}</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p-toast></p-toast>
+
+    <!-- Bootstrap JS dosyası ve gerekli diğer JavaScript dosyaları -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

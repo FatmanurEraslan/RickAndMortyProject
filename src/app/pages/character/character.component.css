@@ -1,0 +1,11 @@
+
+
+.page-background{
+    background: linear-gradient(#000000, #243b55);
+  }
+  .card-body{
+    background-color: lightgray;
+  }
+  .card{
+    border: 0;
+  }

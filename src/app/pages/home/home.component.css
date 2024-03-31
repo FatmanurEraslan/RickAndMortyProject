@@ -1,0 +1,60 @@
+#home {
+    background-color: #000; /* Siyah renk kodu */
+}
+
+.page-background{
+    background: linear-gradient(#000000, #243b55);
+  }
+  .card-body{
+    background-color: lightgray;
+  }
+  .card{
+    border: 0;
+  }
+
+:host ::ng-deep .p-paginator {
+  background: linear-gradient(#243b55,#000000);
+  color: #6b7280;
+  border: solid #f3f4f6;
+  border-width: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+.main {
+  margin: 50px auto;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.form-group.has-search {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-group.has-search input {
+  padding-left: 35px; /* Arama simgesi için sol iç boşluğu ayarla */
+  background-color: #f0f0f0; /* Arka plan rengi */
+  border-radius: 5px; /* Köşeleri yuvarla */
+}
+
+.form-group.has-search .form-control-feedback {
+  position: absolute;
+  left: 10px; /* Arama simgesinin sol iç boşluğu */
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  color: #555; /* Arama simgesi rengi */
+}

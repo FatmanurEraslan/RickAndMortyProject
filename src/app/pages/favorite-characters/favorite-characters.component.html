@@ -1,0 +1,20 @@
+<section id="home">
+    <div class="page-background">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="main">
+
+                        
+                        </div>
+                    <div class="row">
+                        <app-character *ngFor="let character of characters"(click)="goToCharacterDetail(character.id)" [character]="character"  class="col-lg-3 col-md-6 p-4">
+
+                        </app-character>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
